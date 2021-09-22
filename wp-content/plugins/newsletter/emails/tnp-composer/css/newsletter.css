@@ -1,0 +1,91 @@
+#outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+.ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;} /* Force Hotmail to display normal line spacing */
+body, table, td, a{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and Windows mobile changing default text sizes */
+table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+body{margin:0; padding:0; height:100% !important; margin:0; padding:0; width:100% !important;}
+img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none; max-width: 100%!important}
+table{border-collapse:collapse !important;}
+img.aligncenter{display:block;margin:0 auto;}
+
+@media screen and (max-width: 525px) {
+
+    .pt-1 {
+        padding-top: 15px!important;
+    }
+
+    .pb-1 {
+        padding-bottom: 15px!important;
+    }
+
+    /* ALLOWS FOR FLUID TABLES */
+    table[class="wrapper"]{
+        width:100% !important;
+    }
+
+    table[class="responsive"]{
+        width:100%!important;
+        float: none;
+        display: table;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    img[class="responsive"] {
+        max-width: 100%!important;
+    } 
+
+    img[class="fluid"] {
+        max-width: 100%!important;
+        width: 100%;
+    }
+
+    .block {
+        display: block;
+    }
+
+    td[class="responsive"]{
+        width:100%!important;
+        max-width: 100%!important;
+        display: block;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        float: none;
+    }    
+
+    td[class="section-padding"]{
+        padding: 50px 15px 50px 15px !important;
+    }
+
+    td[class="section-padding-bottom-image"]{
+        padding: 50px 15px 0 15px !important;
+    }
+
+    /* ADJUST BUTTONS ON MOBILE */
+    td[class="mobile-wrapper"]{
+        padding: 10px 5% 15px 5% !important;
+    }
+
+    td[class="responsive"]{
+        display: block;
+        width: 100% !important;
+    }
+
+    table[class="mobile-button-container"]{
+        margin:0 auto;
+        width:100% !important;
+    }
+
+    a[class="mobile-button"]{
+        width:80% !important;
+        padding: 15px !important;
+        border: 0 !important;
+        font-size: 16px !important;
+    }
+
+    .tnp-grid-column {
+        max-width: 100%!important;
+    }
+}

@@ -1,0 +1,40 @@
+/* Contains some rules to simulate device layout on backend preview */
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile table[class="responsive"] {
+
+    width:100%!important;
+    float: none;
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile td[class="responsive"]{
+    width:100%!important;
+    max-width: 100%!important;
+    display: block;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    float: none;
+}
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile img[class="responsive"]{
+    max-width: 100%!important;
+} 
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile img[class="fluid"]{
+    width: 100%;
+    max-width: 100%!important;
+}
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile .pt-1 {
+    padding-top: 15px!important;
+}
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile .pb-1 {
+    padding-bottom: 15px!important;
+}
+
+#newsletter-builder-area-center-frame-content.tnp-view-mobile .tnp-grid-column {
+    max-width: 100%!important;
+}

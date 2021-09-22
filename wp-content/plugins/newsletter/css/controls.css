@@ -1,0 +1,171 @@
+/* Classes used by controls. Should be prefixed with "tnpc-" */
+
+
+/* Top page messages */
+.tnpc-error, .tnpc-warning, .tnpc-message,
+.tnp-error, .tnp-warning, .tnp-message {
+    background-color: #fff;
+    padding: 15px;
+    margin: 15px 0;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    margin-left: 10px;
+}
+
+.tnpc-error, .tnp-error {
+    border-left: 5px solid #dd0000;
+}
+
+.tnpc-warning, .tnp-warning {
+    border-left: 5px solid #ffb900;
+}
+
+.tnpc-message, .tnp-message {
+    border-left: 5px solid #46b450;
+}
+
+
+/* Structure */
+
+/* Tables with controls */
+#tnp-body .form-table {
+    background-color: #fff;
+    border: 1px solid #ECF0F1;
+    margin-top: 2em;
+    border-spacing: 4px;
+    border-collapse: separate;
+}
+
+#tnp-body .form-table h4,
+#tnp-body .form-table h3 {
+    color: #444;
+}
+
+/* WP has different padding for TH and TD (why???) */
+#tnp-body .form-table th, #tnp-body .form-table td { 
+    padding: 15px;
+}
+
+#tnp-body .form-table th {
+    text-align: right;
+    font-weight: bold;
+    max-width: 200px;
+    color: #000000;
+    background-color: #ECF0F1;
+    vertical-align: middle;
+}
+
+#tnp-body .form-table th small {
+    font-weight: normal;
+}
+
+#tnp-body .form-table textarea {
+    width: 100%;
+}
+
+/* Subtables contained in a main form table TD */
+#tnp-body .form-table td table {
+    border: 0;
+    border-collapse: collapse;
+}
+
+#tnp-body .form-table td table th {
+    background-color: transparent;
+    text-align: right;
+    width: auto;
+    border: 0;
+    padding: 3px;
+    font-weight: normal;
+    vertical-align: middle;
+    padding-right: 15px;
+}
+
+#tnp-body .form-table td table td {
+    background-color: transparent;
+    border: 0;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+#tnp-body .form-table td table.widefat th {
+    background-color: transparent;
+    text-align: left;
+    width: auto;
+    padding: 5px;
+    font-weight: normal;
+}
+
+#tnp-body .form-table td table.widefat td {
+    background-color: transparent;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+/* Fix for select 2 */
+#tnp-body .form-table td ul {
+    margin-left: 0;
+}
+
+
+/* Set of checkboxes */
+.tnpc-checkboxes label {
+    display: block;
+    float: left;
+    width: 250px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+    margin-bottom: 5px;
+    padding: 5px;
+    white-space: nowrap;
+    margin-right: 5px;
+    overflow: hidden;
+}
+
+.tnpc-lists label {
+    display: block;
+    padding: 5px 0;
+}
+
+.tnpc-lists label span {
+    border-radius: 3px;
+    color: #fff;
+    background-color: #aaa;
+    display: inline-block;
+    padding: 1px 5px;
+    min-width: 2em;
+    font-size: .9em;
+    text-align: center;
+}
+
+
+/* Hint text after a field */
+.tnpc-hint, p.description {
+    margin-top: 15px;
+    clear: both;
+    font-size: 12px !important;
+    color: #666;
+    font-style: italic;
+}
+
+/* Color picker */
+.tnpc-color {
+    width: 40px;
+    font-size: 12px;
+}
+
+/* Buttons */
+.tnpc-button, .tnpc-button:visited, .tnpc-button:hover, .tnpc-button:active {
+    min-width: 3em;
+    text-align: center;
+    color: #fff!important;
+    width: auto;
+}
+
+/* Lists select with triggers */
+.tnpc_lists_notes {
+    color: #999;
+    font-size: .9em;
+    padding: 0px 0 0 15px; 
+    border-left: 3px solid #888;
+    margin-top: 10px;
+}

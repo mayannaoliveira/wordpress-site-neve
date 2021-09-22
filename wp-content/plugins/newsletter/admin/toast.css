@@ -1,0 +1,131 @@
+.tnp-toast-main-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    z-index: 9991;
+    pointer-events: none;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tnp-toast-main-wrapper .notification {
+    display: block;
+    overflow: hidden;
+    pointer-events: auto;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .25);
+    position: relative;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 2px;
+    max-width: 300px;
+    transform: translateY(25%);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    font-weight: bold;
+    animation: .4s ease-in forwards;
+    background-color: #FFF;
+}
+
+.tnp-toast-main-wrapper .notification:after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 5px;
+    height: 100%;
+}
+
+.tnp-toast-main-wrapper .notification.push-up {
+    animation-name: notification-fadeinup;
+}
+
+.tnp-toast-main-wrapper .notification.push-down {
+    animation-name: notification-fadeindown;
+}
+
+.tnp-toast-main-wrapper .notification.pop-down {
+    transform: translateY(0);
+    animation: notification-fadeoutdown .4s forwards;
+    animation-delay: .25s;
+}
+
+.tnp-toast-main-wrapper .notification.pop-up {
+    transform: translateY(0);
+    animation: notification-fadeoutup .4s forwards;
+    animation-delay: .25s;
+}
+
+.tnp-toast-main-wrapper .notification.top-to-bottom {
+    margin-bottom: 20px;
+}
+
+.tnp-toast-main-wrapper .notification.bottom-to-top {
+    margin-top: 20px;
+}
+
+.tnp-toast-main-wrapper .notification.notification-success:after {
+    background-color: #46b450;
+}
+
+.tnp-toast-main-wrapper .notification.notification-error:after {
+    background-color: #dd0000;
+}
+
+.tnp-toast-main-wrapper .notification.notification-info:after {
+    background-color: #0073aa;
+}
+
+.tnp-toast-main-wrapper .notification.notification-warning:after {
+    background-color: #ffb900;
+}
+
+@keyframes notification-fadeinup {
+    0% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes notification-fadeoutdown {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(25%);
+    }
+}
+
+@keyframes notification-fadeindown {
+    0% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes notification-fadeoutup {
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-25%);
+    }
+}

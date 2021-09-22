@@ -1,0 +1,128 @@
+.llms-button-primary, .llms-button-action {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--primaryBtnBg);
+  color: var(--primaryBtnColor);
+  border-style: solid;
+  border-color: currentColor;
+  fill: currentColor;
+  border-width: var(--primaryBtnBorderWidth, 0);
+  border-radius: var(--primaryBtnBorderRadius, 3px);
+  padding: var(--primaryBtnPadding, 13px 15px);
+  font-weight: var(--btnFontWeight, 700);
+  font-size: var(--btnFs, var(--bodyFontSize));
+  line-height: var(--btnLineHeight, 1.6);
+  letter-spacing: var(--btnLetterSpacing, var(--bodyLetterSpacing));
+  text-transform: var(--btnTextTransform, none);
+}
+
+.llms-button-primary:hover, .llms-button-action:hover {
+  background-color: var(--primaryBtnHoverBg);
+  color: var(--primaryBtnHoverColor);
+  border-color: var(--primaryBtnHoverColor);
+}
+
+.llms-button-secondary {
+  cursor: pointer;
+  box-sizing: border-box;
+  background-color: var(--secondaryBtnBg);
+  color: var(--secondaryBtnColor);
+  border-style: solid;
+  border-color: currentColor;
+  fill: currentColor;
+  border-width: var(--secondaryBtnBorderWidth, 0);
+  border-radius: var(--secondaryBtnBorderRadius, 3px);
+  padding: var(--secondaryBtnPadding, 7px 12px);
+  font-weight: var(--btnFontWeight, 700);
+  font-size: var(--btnFs, var(--bodyFontSize));
+  line-height: var(--btnLineHeight, 1.6);
+  letter-spacing: var(--btnLetterSpacing);
+  text-transform: var(--btnTextTransform, none);
+}
+
+.llms-button-secondary:hover {
+  background-color: var(--secondaryBtnHoverBg);
+  color: var(--secondaryBtnHoverColor);
+  border-color: var(--secondaryBtnHoverColor);
+}
+
+.single-course .review_box input:read-write, .single-course .review_box textarea {
+  border-style: solid;
+  border-color: var(--formFieldBorderColor);
+  border-width: var(--formFieldBorderWidth);
+  border-radius: var(--formFieldBorderRadius, 3px);
+  background-color: var(--formFieldBgColor);
+  color: var(--formFieldColor);
+  padding: var(--formFieldPadding);
+  text-transform: var(--formFieldTextTransform);
+  font-weight: var(--formFieldFontWeight);
+  font-family: var(--bodyFontFamily);
+  font-size: var(--formFieldFontSize);
+  letter-spacing: var(--formFieldLetterSpacing);
+  line-height: var(--formFieldLineHeight);
+}
+
+.llms-loop-list {
+  padding: 0 !important;
+}
+
+.llms-sd-section-footer {
+  margin-bottom: 25px;
+}
+
+.llms-pagination {
+  margin: 10px auto;
+}
+
+.llms-pagination ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.llms-pagination ul li .page-numbers {
+  text-decoration: none;
+  display: inline-block;
+  padding: 12px 15px;
+}
+
+.llms-button-primary, .llms-button-action {
+  display: inline-block;
+}
+
+.llms-button-secondary {
+  display: inline-block;
+}
+
+.llms-loop-item-footer .avatar, .llms-loop-item-footer .llms-author-info {
+  vertical-align: middle;
+}
+
+.llms-choice > label {
+  width: 100%;
+}
+
+.single-course .review_box {
+  background-color: var(--nv-light-bg);
+  padding: 40px;
+}
+
+.single-course .review_box input:read-write, .single-course .review_box textarea {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+.single-course .review_box textarea {
+  height: 200px;
+}
+
+.single-course .llms-lesson-counter {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.llms-course-nav .llms-lesson-preview {
+  width: 100%;
+}
+
+/*# sourceMappingURL=lifter.css.map */

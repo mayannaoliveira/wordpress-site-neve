@@ -1,0 +1,61 @@
+
+.tnpc-error, .tnpc-warning, .tnpc-message {
+    background-color: #28313C;
+    color: #fff;
+}
+
+#tnp-body table.form-table {
+    border: 1px solid #666;
+    border-radius: 3px;
+    margin-top: 0;
+    margin-bottom: 1em;
+}
+
+#tnp-body table.form-table th {
+    width: 150px;
+}
+
+#tnp-body table.form-table, #tnp-body table.form-table th {
+    background-color: transparent;
+    color: #fff;
+}
+
+#tnp-body table.form-table th, #tnp-body table.form-table td {
+    vertical-align: top;
+}
+
+#tnp-body table.form-table td {
+    color: #999;
+}
+
+#tnp-body table.form-table p.description {
+    color: #aaa;
+}
+
+#tnp-body table.widefat {
+    background-color: transparent !important;
+}
+
+#tnp-body table.widefat input[type="text"] {
+    background-color: #28313C;
+    color: #fff !important;
+}
+
+#tnp-body table.widefat thead {
+    background-color: #28313C;
+    color: #fff!important;
+}
+
+#tnp-body table.widefat td {
+    color: #999;
+}
+
+#tnp-body table.widefat tr:nth-child(even) {
+    background-color: #28313C;
+}
+
+/* Set of checkboxes */
+.tnpc-checkboxes label {
+    border: 1px solid #666;
+    background-color: transparent;
+}

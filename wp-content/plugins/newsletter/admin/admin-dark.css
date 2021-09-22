@@ -1,0 +1,34 @@
+@import "css/controls-dark.css";
+
+#tnp-body {
+    background-color: transparent;
+}
+
+/* Tabs */
+#tnp-body #tabs p {
+    color: #999;
+}
+
+#tnp-body #tabs .ui-tabs-panel {
+    background-color: transparent;
+    padding-left: 0 !important;
+}
+
+#tnp-body #tabs .ui-widget-header .ui-state-default {
+    background-color: transparent;
+}
+
+#tnp-body #tabs .ui-widget-header .ui-state-default a {
+    color: #fff;
+}
+
+#tnp-body #tabs .ui-widget-header .ui-state-active a {
+    color: #fff;
+    background-color: #28313C;
+}
+
+#tnp-body #tabs h3,
+#tnp-body #tabs h4 {
+    color: #fff;
+}
+

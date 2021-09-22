@@ -1,0 +1,155 @@
+body {
+	/* always show scroll bar (prevents clipping of screen) */
+	overflow-y: scroll;
+}
+
+.card {
+	max-width: 100%;
+	min-height: 170px;
+
+	pre strong {
+		font-size: 1.4em;
+	}
+
+	.copy-icon {
+		width: 18px;
+		height: 18px;
+		display: inline-block;
+		vertical-align: middle;
+		cursor: pointer;
+		transition: fill 250ms, opacity 250ms;
+		margin-left: 10px;
+		opacity: .4;
+		margin-bottom: 4px;
+
+		&:hover {
+			fill: #00b9eb !important;
+			opacity: 1;
+		}
+	}
+
+	.copy-msg.fadeOut {
+		animation: fade 1.5s forwards;
+	}
+
+	#icon-preview {
+		position: absolute;
+		top: 50%;
+		right: 25px;
+		width: 150px;
+		height: 150px;
+		transform: translateY(-50%);
+
+		span {
+			width: 150px !important;
+			height: 150px !important;
+		}
+	}
+
+	@keyframes fade {
+	  	0%, 10% {
+	  		opacity: 1;
+	  	}
+	  	100% {
+	    	opacity: 0;
+	  	}
+	}
+}
+
+
+.simple-icons-search-wrapper {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+
+	& > div:first-child {
+		margin-left: 20px;
+	}
+
+	& > div:first-child,
+	&:after {
+		flex: 1;
+		display: flex;
+		min-width: -webkit-min-content; /* Workaround to Chrome bug */
+	}
+
+	&:after {
+		justify-content: flex-end;
+		content: '.';
+		visibility: hidden;
+	}
+
+	#simple-icons-search {
+		padding: 10px 15px;
+		border-radius: 10px;
+		width: 300px;
+	}
+
+}
+
+ul.simpleicons-list {
+	clear: both;
+	margin-bottom: 20px;
+
+	&:after {
+	   	content: "."; 
+	   	visibility: hidden; 
+	   	display: block; 
+	   	height: 0; 
+	   	clear: both;
+	}
+
+	& li {
+		padding: 15px;
+		margin: 5px;
+		transition: background 250ms;
+		cursor: pointer;
+		float: left;
+
+		& span {
+			transition: fill 250ms;
+		}
+
+		&:hover,
+		&.selected {
+			background: #ccc;
+		}
+
+		&:hover span,
+		&.selected span {
+			fill: #111 !important;
+		}
+	}
+}
+
+.simpleicons-loader {
+	width: 100px;
+	height: 100px;
+	margin: 20px auto 0;
+
+	&:after {
+	  	content: " ";
+	  	display: block;
+	  	width: 32px;
+	  	height: 32px;
+	  	margin: 5% auto;
+	  	border-radius: 50%;
+	  	border: 3px solid #aaa;
+	  	border-color: #aaa transparent #aaa transparent;
+	  	animation: simpleicons-load-ring 1.2s linear infinite;
+	}
+}
+
+@keyframes simpleicons-load-ring {
+  	0% {
+    	transform: rotate(0deg);
+  	}
+  	100% {
+    	transform: rotate(360deg);
+  	}
+}
+
+.simpleicons-loadmore-wrapper {
+	text-align: center;
+	margin: 40px 0;
+}

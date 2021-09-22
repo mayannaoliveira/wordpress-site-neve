@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'v3.0.4',
+        'version' => '3.0.4.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '080f7d5285ba58b6e601808543530ede86421b15',
+        'name' => 'codeinwp/neve',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'codeinwp/neve' => array(
+            'pretty_version' => 'v3.0.4',
+            'version' => '3.0.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '080f7d5285ba58b6e601808543530ede86421b15',
+            'dev_requirement' => false,
+        ),
+        'codeinwp/themeisle-sdk' => array(
+            'pretty_version' => '3.2.21',
+            'version' => '3.2.21.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeinwp/themeisle-sdk',
+            'aliases' => array(),
+            'reference' => 'cafd016b61ec0928c0234e312046782a77c14318',
+            'dev_requirement' => false,
+        ),
+        'wptt/webfont-loader' => array(
+            'pretty_version' => 'v1.1.1',
+            'version' => '1.1.1.0',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../wptt/webfont-loader',
+            'aliases' => array(),
+            'reference' => '7243420fec7f202a9355485b8533bd99a7654941',
+            'dev_requirement' => false,
+        ),
+    ),
+);

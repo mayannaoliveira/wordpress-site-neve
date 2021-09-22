@@ -1,0 +1,176 @@
+
+
+/* STRUCTURE */
+.tnp-field-row {
+    clear: both;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.tnp-field-col-2 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-col-3 {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-col-20 {
+    width: 20%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-col-33 {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-col-66 {
+    width: 66%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-col-80 {
+    width: 80%;
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+}
+
+.tnp-field-box {
+    padding: 10px;
+    background-color: #eee !important;
+    border: 1px solid #bbb;
+}
+
+.tnp-section {
+
+}
+
+.tnp-field.tnp-separator {
+    border-top: 1px solid #ddd;
+    line-height: 0;
+}
+
+/* Single field container */
+.tnp-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.tnp-field select.tnp-small {
+    font-size: .9em;
+}
+
+.tnp-field label.tnp-label, .tnp-field-row label.tnp-row-label {
+    display: block;
+    font-size: 12px;
+    font-weight: 300;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0px 10px 0px;
+    font-family: soleil, sans-serif;
+    font-weight: 300;
+    padding-bottom: 5px;
+    color: #868686;
+}
+
+/* Compesate the negative row margin */
+.tnp-field-row label.tnp-row-label {
+    margin-left: 10px;
+}
+
+.tnp-field.tnp-checkbox label {
+    display: inline;
+}
+
+/* Set of inlined field for font, size, color... */
+tnp-field.tnp-font {
+
+}
+
+.tnp-field:not(.tnp-colorpicker) input {
+    width: 100%;
+}
+
+.tnp-field input[type=number] {
+    width: 100px;
+}
+
+.tnp-field.tnp-size input {
+    width: 60px;
+    display: inline;
+}
+
+.tnp-field .tnp-padding-fields {
+    display: inline;
+}
+
+/* Four field for block padding selection */
+.tnp-field .tnp-padding-fields input {
+    width: 40px;
+    display: inline;
+}
+
+.tnp-field select {
+    width: auto!important;
+    color: #34495E;
+}
+
+.tnp-field input[type=url] {
+    font-family: monospace;
+}
+
+.tnp-field input[type=color] {
+    width: 40px;
+    min-height: 30px;
+    vertical-align: middle;
+}
+
+.tnp-field input[type=submit] {
+    width: auto;
+}
+
+.tnp-field input[type=checkbox] {
+    width: auto;
+}
+
+.tnp-field.tnpf-button .tnpf-font-family {
+    font-size: 13px;
+}
+
+.tnp-field.tnpf-button .tnpf-font-size {
+    font-size: 13px;
+}
+
+.tnp-field.tnpf-button .tnpf-font-weight {
+    font-size: 13px;
+}
+
+.tnp-field.tnp-categories {
+
+}
+
+/* The label for each category checkbox (should override the generic label appearance) */
+.tnp-field.tnp-categories label {
+
+}
+
+.tnp-description {
+    margin-top: 7px;
+    font-style: italic;
+    font-weight: normal;
+    color: #999999;
+}

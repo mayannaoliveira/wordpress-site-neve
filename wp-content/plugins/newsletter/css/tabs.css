@@ -1,0 +1,94 @@
+/* Since #tabs has a white background, all elements should be made dark */
+
+#tnp-body #tabs h3,
+#tnp-body #tabs h4,
+#tnp-body #tabs p,
+#tnp-body #tabs li,
+#tnp-body #tabs input,
+#tnp-body #tabs select,
+#tnp-body #tabs textarea {
+    color: #444;
+}
+
+#tnp-body td .tnp-tabs {
+    
+}
+
+#tnp-body td .tnp-tabs .ui-widget-header {
+    background-color: #ddd;
+}
+
+#tnp-body td .tnp-tabs .ui-tabs-anchor {
+    color: #000;
+}
+
+#tnp-body .ui-widget {
+    font-family: soleil, sans-serif;
+}
+
+#tnp-body #tabs {
+    background-color: transparent;
+    border: 0!important;
+    padding: 0;
+    margin: 0;
+}
+
+#tnp-body #tabs .ui-widget-header {
+    background: #28313C;
+    border: 0;
+}
+
+#tnp-body #tabs .ui-tabs-panel {
+    padding: 15px!important;
+    background-color: #fff;
+}
+
+#tnp-body #tabs a.ui-tabs-anchor,
+#tnp-body #tabs a.ui-tabs-anchor:visited {
+    color: #444;
+}
+
+#tnp-body .ui-tabs .ui-tabs-nav {
+    padding: 0;
+    margin: 0;
+}
+
+#tnp-body .ui-tabs .ui-tabs-nav li a {
+    font-size: 14px;
+}
+
+#tnp-body #tabs .ui-tabs {
+    border-color: #28313C;
+    background-color: #28313C;
+    border: 0;
+}
+
+#tnp-body #tabs .ui-tabs .ui-tabs-nav {
+    margin: 0;
+    padding: .2em .2em 0 0;
+    background-color: #f2f2f2;
+}
+
+#tnp-body #tabs .ui-tabs .ui-tabs-panel {
+    padding: 1em 0;
+    background-color: #f2f2f2;
+    margin: 0;
+    border: 0;
+}
+
+#tnp-body .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    background: #fff !important;
+    font-weight: normal;
+    font-family: soleil, sans-serif;
+}
+
+
+#tnp-body .ui-widget-content {
+    background: #fff;
+}
+
+#tnp-body .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    background: #ECF0F1;
+    font-family: soleil, sans-serif;
+}
